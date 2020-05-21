@@ -1,0 +1,69 @@
+.four-row-wrapper {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background: rgb(245, 245, 245);
+  .four-row-block {
+    margin: 30px auto 5px auto;
+    padding: 30px;
+    height: 100%;
+    width: 64%;
+    box-sizing: border-box;
+    h1 {
+      text-align: center;
+      font-size: 2rem;
+      line-height: 2.5rem;
+      letter-spacing: 0.9px;
+    }
+    .four-row-content {
+      overflow: hidden;
+      margin: 10px auto;
+      padding: 30px;
+      width: 90%;
+      .four-row-content-firstline {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .four-row-content-secondline {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .four-row-card {
+        position: relative;
+        margin-top: 30px;
+        padding: 18px;
+        width: 47%;
+        box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 1px 1px;
+        background: rgb(255, 255, 255);
+        border: 1px solid rgb(245, 245, 245);
+        transition: all 0.4s;
+        .four-row-banner {
+          position: absolute;
+          left: -2px;
+          top: -3px;
+          width: 100.5%;
+          border: 3px solid #66a6ff;
+          transition: all 0.4s;
+        }
+        h2 {
+          font-size: 1.8rem;
+          letter-spacing: 0.4px;
+        }
+        p {
+          font-size: 1rem;
+          line-height: 1.2rem;
+          letter-spacing: 0.2px;
+        }
+      }
+      .four-row-card:hover {
+        background-color: #66a6ff;
+        cursor: pointer;
+        .four-row-banner {
+          border: 3px solid #f6f6f6;
+        }
+      }
+    }
+  }
+}

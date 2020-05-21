@@ -1,0 +1,41 @@
+.second-row-wrapper {
+  margin-top: 50px;
+  width: 100%;
+  height: 250px;
+  background: rgb(255, 255, 255);
+  .second-row-block {
+    margin: 0 auto;
+    width: 60%;
+    height: 100%;
+
+    .second-row-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 30px;
+      box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 2px 2px;
+      h1 {
+        font-size: 2rem;
+        line-height: 2.6rem;
+        color: rgb(43, 39, 39);
+        letter-spacing: 0.9px;
+        border-bottom: 5px solid #66a6ff;
+      }
+      p {
+        margin-left: 30px;
+        line-height: 1.625rem;
+        font-size: 1rem;
+        font-weight: 400;
+        letter-spacing: 0.1px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .second-row-content {
+    p {
+      display: none;
+    }
+  }
+}
