@@ -4,7 +4,7 @@
 
 [Insurance Website | Deploy on Netlify](https://insurance.chenxii.xyz) | Website Link
 
-[Purchase Platform | Deploy on Tencent Shanghai Cloud Server](http://172.81.242.65:3000/#/login) | Website Link | Access a little bit slow
+[Purchase Platform | Deploy on Tencent Shanghai Cloud Server](http://172.81.242.65:3000/#/login) | Access a little bit slow
 
 ### Preview
 
